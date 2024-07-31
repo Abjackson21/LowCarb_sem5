@@ -1,0 +1,121 @@
+.body-profile{
+    height: 100%;
+    border-radius: 10px;
+    margin:40px;
+    background-color: #ffffffd2;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-pic-container{
+    width: 77%;
+    height: 150px;
+    margin: 40px 40px 5px 40px;
+    display: inline-flex;
+    align-content: center;
+}
+
+#profile-pic{
+    width: 100px;
+    display: relative;
+    margin: 20px;
+    padding-left: 20px;
+}
+
+#profile-name{
+    width: 70%;
+    display: relative;
+    margin-left: 15px;
+    padding: 18px 0px;
+    font-size: 15px;
+}
+
+.profile-edit-btn{
+    margin-bottom: 30px;
+}
+
+.profile-edit-btn a{
+    display: relative;
+    margin-left: 72px;
+    text-decoration: none;
+    color:  #ffffffe0;
+    padding: 10px 20px;
+    background-color: rgb(0, 23, 93);
+    border-radius: 5px;
+}
+
+.profile-edit-btn a:hover {
+    background-color: rgb(0, 14, 59);
+}
+
+.profile-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin: 20px 40px;
+    padding: 50px 70px;
+}
+  
+.profile-col-10 {
+    float: left;
+    width: 15%;
+    margin-top: 6px;
+}
+  
+.profile-col-85 {
+    float: left;
+    width: 85%;
+    margin-top: 6px;
+}
+
+.profile-col-35 {
+    float: left;
+    width: 35%;
+    margin-top: 6px;
+}
+  
+/* Clear floats after the columns */
+.profile-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1000px) {
+.profile-col-10, .profile-col-85, .profile-col-35,input[type=submit] {
+      width: 95%;
+      margin-top: 0;
+    }
+}
+
+.profile-data, input[type=text], input[type=email], input[type=password], select, textarea {
+    width: 100%;
+    padding: 12px;
+    background-color:#fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-size: 15px;
+    align-content: center;
+}
+  
+label {
+    padding: 12px;
+    display: inline-block;
+}
+  
+input[type=submit] {
+    text-decoration: none;
+    background-color: rgb(0, 23, 93);
+    color: #ffffffe0;;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+  
+input[type=submit]:hover {
+    background-color: rgb(0, 14, 59);
+}
+  

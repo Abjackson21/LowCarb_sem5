@@ -1,0 +1,212 @@
+.body-waterList{
+    height: 100%;
+    border-radius: 10px;
+    margin:20px;
+    padding: 40px 0px;
+    background-color: #ffffffd2;
+    display: flex;
+    flex-direction: column;
+}
+
+.waterList-table-container {
+  width:100%;
+  margin-bottom:40px;
+  padding:0;
+  display: flex;
+  flex-direction: column;
+}
+
+.center-align{
+  text-align: center;
+}
+
+.water-table{
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.9em;
+    min-width: 400px;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); */
+}
+
+.water-table thead tr {
+    background-color: rgb(241, 244, 251);
+    text-align: center;
+}
+
+.water-table th,
+.water-table td {
+    padding: 20px 15px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.water-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+}
+.btn-table{
+    display: inline-flex;
+    flex-direction: column; 
+}
+.water-table a{
+  text-decoration: none;
+    background-color: rgb(0, 23, 93);
+    color: #ffffffe0;
+    width: 30px;
+    margin: 1px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.water-table a:hover{
+  background-color: rgb(0, 14, 59);
+}
+
+.btn-add {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  justify-content: center;
+  line-height: 1.25;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  text-decoration: none;
+  transition: all 250ms;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  display: inline-flex;
+  position: absolute;
+  right: 13%;
+  
+}
+
+.btn-add:hover,
+.btn-add:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.btn-add:hover {
+  transform: translateY(-1px);
+}
+
+.btn-add:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+.waterForm-container {
+  width:100%;
+  margin-bottom:40px;
+  padding:0;
+}
+
+.water-bill-container{
+  width: 100%;
+  margin: auto;
+  padding: auto;
+}
+
+.water-bill-container img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.water-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  margin: 20px 40px;
+  padding: 50px 70px;
+}
+
+.water-col-10 {
+  float: left;
+  width: 15%;
+  margin-top: 6px;
+}
+
+.water-col-85 {
+  float: left;
+  width: 85%;
+  margin-top: 6px;
+}
+
+.water-col-35 {
+  float: left;
+  width: 35%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.water-row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1000px) {
+.water-col-10, .water-col-85, .water-col-35,input[type=submit], input[type=button] {
+    width: 95%;
+    margin-top: 0;
+  }
+}
+
+.water-data, input[type=text], input[type=number], select, textarea {
+  width: 100%;
+  padding: 12px;
+  background-color:#fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font-size: 15px;
+  align-content: center;
+}
+
+label {
+  padding: 12px;
+  display: inline-block;
+}
+
+input[type=submit], input[type=button]  {
+  text-decoration: none;
+  background-color: rgb(0, 23, 93);
+  color: #ffffffe0;
+  margin: 10px 10px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover, input[type=button]:hover{
+  background-color: rgb(0, 14, 59);
+}
+
+
+.error-message {
+  border: 2px solid red;
+  text-align: center;
+  color: #ff0000;
+  font-weight: bold;
+}

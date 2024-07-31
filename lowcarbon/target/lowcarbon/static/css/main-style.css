@@ -1,0 +1,38 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: rgb(241, 244, 251) ;
+}
+
+.main-container {
+    margin: -8px;
+}
+
+.body-container{
+    height: auto;
+    border-radius: 10px;
+    margin:40px;
+    background-color: #ffffffd2;
+}
+
+.dashboard-row{
+    display: flex;
+    justify-content: center;
+    padding: 20px 30px;
+}
+
+.full-row-container, .carbon-emission-container{
+    text-align: center;
+    background-color: rgb(241, 244, 251) ;
+}
+.full-row-container{
+    width: 100%;
+    border: 2px solid rgb(0, 23, 93);
+}
+
+.carbon-emission-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border: 2px solid rgb(0, 23, 93);
+}

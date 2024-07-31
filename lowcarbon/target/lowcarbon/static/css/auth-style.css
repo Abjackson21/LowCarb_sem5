@@ -1,0 +1,98 @@
+.auth-container{
+    background-image: url("/img/backMBIP.jpg");
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 101vh;
+    display:flex;
+    justify-content: center;
+}
+
+.auth-form-container{
+    width: 400px;
+    margin-top: 40px;
+}
+
+.auth-register-form-container{
+    width: 1200px;
+    margin-top: 40px;
+}
+
+.auth-body{
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+}
+
+.auth-title{
+    padding: 10px 25px 0px 25px;
+    text-align:start;
+}
+
+.auth-title h3{
+    font-size: larger;
+}
+
+.auth-title p{
+    font-size: smaller;
+    color:rgb(118, 118, 118);
+}
+
+.auth-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.auth-in-form{
+    display: flex;
+}
+.auth-form-left, .auth-form-right{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    padding: 0px 50px;
+}
+
+.auth-input{
+    justify-content: center;
+    font-size: smaller;
+    font-weight: bold;
+    color:rgb(118, 118, 118);
+}
+
+.auth-action{
+    justify-content: center;
+    margin: 50px 0;
+    text-align: center;
+    font-size: smaller;
+    color: rgb(118, 118, 118);
+}
+
+.auth-action a{
+    color: black;
+    text-decoration: none;
+}
+
+.auth-action a:hover{
+    color: rgb(118, 118, 118);
+    text-decoration:underline;
+}
+
+.action-left, .action-right{
+    margin-top: 10px;
+}
+.action-left{
+    display: inline;
+    float: left;
+    margin-left: 10px;
+}
+
+.action-right{
+    display: inline;
+    float: right;
+    margin-right: 10px;
+}
+                          

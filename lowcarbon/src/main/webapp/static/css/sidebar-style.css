@@ -1,0 +1,82 @@
+
+.sidebar-container {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    overflow-x: hidden;
+    padding-top: 20px;
+    transition: 0.5s;
+}
+
+.sidebar{
+    padding: 6px 15px;
+    font-size: 25px;
+    color: #393434;
+}
+
+.sidebar a {
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    color: #605d5d;
+    border-top: 2px #5c607a80 solid;
+    margin: -7px -20px;
+    padding: 15px 20px;
+
+}
+
+.sidebar a:hover {
+    color: #161414;
+}
+
+@media screen and (max-height: 450px) {
+.sidebar {padding-top: 15px;}
+.sidebar a {font-size: 18px;}
+}
+
+.sidebar .bar-closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.bar-closebtn {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: rgb(0, 23, 93);
+    color: white;
+    padding: 10px 35px;
+    margin: 0px 0px 15px 170px; 
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: none;
+    text-align: right;
+    text-decoration: none;
+}
+
+.bar-closebtn:hover {
+    background-color: rgb(0, 14, 59);
+}
+
+.bar-MBIPlogo{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.bar-page-container{
+    margin-top: 20px;
+    padding: 10px 20px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.bar-page{
+    margin: 7px 0;
+}
